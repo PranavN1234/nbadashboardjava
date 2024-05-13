@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class NbadashboardjavaApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(NbadashboardjavaApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(NbadashboardjavaApplication.class, args);
+    }
 
 }

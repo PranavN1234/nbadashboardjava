@@ -1,0 +1,57 @@
+.Home {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+
+  .team-name {
+    margin-top: 0;
+    grid-column: span 3;
+    align-self: start;
+    display: flex;
+
+    .name-section {
+      font-size: 4rem;
+    }
+
+    .home-button {
+      margin-left: 20px;
+      padding: 10px 20px;
+      background-color: #f0f0f0;
+      text-decoration: none;
+      color: #333;
+      border-radius: 5px;
+
+    }
+  }
+
+
+
+  .team-winning {
+    justify-self: center;
+    align-self: start;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .game-info {
+    grid-column: span 4;
+    align-self: start;
+  }
+
+  .more-link{
+    align-self: center;
+    justify-self: center;
+    font-size: 1.5rem;
+  }
+}
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0 auto;
+  max-width: none;
+}
+
+
